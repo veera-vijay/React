@@ -1,0 +1,44 @@
+
+.container{
+    margin-top: 90px;
+     
+    
+   
+}
+.title{
+    color: red;
+    margin-left: 120px;
+}
+.courses{
+   display:flex ;
+   flex-direction: column;
+   gap: 30px;
+   margin-left: 35%;
+   margin-top: 20%;
+  
+   font-size: 30px;
+   margin-right: 115px;
+  
+   
+}
+
+.course-link{
+  
+   display: inline-block;
+  width: 120px;               /* fixed width for both links */
+  padding: 10px 15px;
+  background-color: #667eea;  /* blue background */
+  color: black;
+  text-align: center;
+  text-decoration: none;
+ 
+  font-weight: bold;
+  transition: 0.3s ease;
+  margin-left: -20px;
+  display: flex;
+  flex-direction: column;
+   ;
+}
+.course-link:hover {
+  
+  transform: scale(1.05);}

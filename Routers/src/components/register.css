@@ -1,0 +1,87 @@
+
+.full {
+  color: #1e1515;
+  background-color: white;
+  width:400px;
+  height: 775px;
+  margin-left: 450px;
+  margin-top:50px;
+  padding-top: 10px;
+  overflow: hidden;
+  box-shadow:10px 10px 10px 15px white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; 
+  /* width:60%; */
+  /* padding-top:20px; */
+  margin-left: 20px;
+  
+}
+.headR{
+  margin-left: 580px;
+  margin-bottom: -30px;
+}
+
+label{
+  color:black;
+  font-size:20px;
+  
+}
+
+input:focus{
+ color:black;
+  outline: none;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: red;
+}
+
+.gender-group {
+  display: flex;
+  flex-direction:row; 
+  gap:5px;  
+ 
+}
+input[type='radio'] {
+  width: 15px;   /* won't increase button size */
+  height: 10px; 
+  accent-color: rgb(9, 9, 208); /* ignored too */
+}
+
+
+.btn {
+    padding: 17px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: black;
+  box-shadow: rgba(250, 162, 162, 0.05) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  
+  margin-top:10px;
+  margin-left:60px;
+  color:white;
+  margin-right: 70px;
+  margin-top: -5px;
+  padding-bottom: 7px;
+  
+}
+
+
+input{
+ width: 80%;
+ 
+}
+.turn_login{
+  margin-left: 75%;
+  background-color:rgb(198, 10, 123);
+  color: black;
+  margin-bottom: 10px;
+  font-weight:bolder;
+
+}

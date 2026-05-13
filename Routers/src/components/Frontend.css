@@ -1,0 +1,29 @@
+.course_containerf{
+ background-color:rgb(219, 76, 76);
+ width: 700px;
+ height: 300px;
+ padding: 20PX;
+ margin-left: 220px;
+ margin-top: 100px;
+ 
+  box-shadow: 10px 10px 10px rgb(251, 249, 249);
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.head{
+    margin-top: 50px;
+    margin-left: 260px;
+}
+
+.course_containerf ul{
+    color: white;
+    font-size:30px;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+
+}
